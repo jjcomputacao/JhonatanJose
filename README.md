@@ -37,7 +37,8 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
 - Instale [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) em sua maquina.
 - Realize o download e instale o [mysql](https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.37.0.msi) em sua máquina.
 
-    Selecione a opção Full ![mysqlInstaller1](imagens/mysqlInstaller1.png)
+    Selecione a opção Full
+    ![mysqlInstaller1](imagens/mysqlInstaller1.png)
     Clique no botão "Next > ", depois execute.
     Após o status estiver como "Downloaded", clique no botão "Next > " e logo após em "Execute".
     ![mysqlInstaller2](imagens/mysqlInstaller2.png)
