@@ -40,26 +40,32 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
     Selecione a opção Full
   
 ![mysqlInstaller1](imagens/mysqlInstaller1.png)
+
     Clique no botão "Next > ", depois execute.
     Após o status estiver como "Downloaded", clique no botão "Next > " e logo após em "Execute".
     
 ![mysqlInstaller2](imagens/mysqlInstaller2.png)
+
     Clique no botão "Next >" até ser solicitado password.
     
 ![mysqlInstaller3](imagens/mysqlInstaller3.png)
+
     Em MySQL Root Password digite "senaisp", e confirma logo abaixo.
     Continue a instalação e finalize clicando no botão "Finish".
     Ao chegar na tela Connect To Server digite o password "senaisp".
     
 ![mysqlInstaller4](imagens/mysqlInstaller4.png)
+
     Clique no botão Check e após "Next >", "Execute" e "Finish".
     Após a instalação do mysql, realize a criação do banco, tabela e colunas.
     Abra o MySQL Workbench, e clique em Database > Connect to Database e clique em OK.
     
 ![mysqlInstaller5](imagens/mysqlInstaller5.png)
+
     Clique em new SQL.
     
 ![mysqlInstaller6](imagens/mysqlInstaller6.png)
+
     Digite o seguinte comando para criar o bando de dados.
     ```
     CREATE DATABASE estoque
@@ -79,6 +85,7 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
     Clique em new project Lybrary Java e selecione o arquivo "mysql-connector-j-9.0.0.jar".
   
 ![mysqlInstaller8](imagens/mysqlInstaller8.png)
+
     Clique em "OK", "Apply" e "OK".
 
 ## ⚙️ Executar
