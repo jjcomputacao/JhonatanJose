@@ -1,36 +1,93 @@
-# Jhonatan José da Silva <img src="https://user-images.githubusercontent.com/55117744/201367746-4437a003-44c2-4e26-81e8-41e43516c045.gif" width="30px">
+# Projeto Final Curso Java Foundations - 2024/1 SENAI
+Professor: Rafael Rodrigues de Oliveira
 
-## Hello world!
-   Formado em engenharia da computação, trabalho com qualidade de software e automação utilizando técnicas e conhecimentos adquiridos até o momento, otimizando processos visando sempre qualidade e tempo de execução, busco sempre aperfeiçoar e gerenciar a execução dos testes garantindo uma entrega com qualidade.
+Como projeto final do curso, foi proposto a criação do seguinte projeto utilizando a linguangem JAVA.
 
-## Conhecimentos em automação:👨🏾‍💻
-### Plataforma
-- WEB 
-- MOBILE
-- BrowserStack
-### Framework
-- Cypress
-- Robot
-- Cucumber
-### Software
-- Katalon
-- Postman
-- Selenium
-- Android Studio
-- Cucumber
+## Sistema de Gerenciamento de Estoque
+### Funcionalidades
+* #### Cadastro de Produtos
+>Permitir o cadastro de produtos com informações como nome, descrição, preço, quantidade em estoque, etc.
 
-### Ferramentas de gerenciamento
-- Jira
-- Asana
-- Target process
-### Linguagem
-- <img src="https://user-images.githubusercontent.com/55117744/201371373-3648d22b-6bf1-435f-98d5-c3dae2ecd552.png" height="32px">
-- <img src="https://user-images.githubusercontent.com/55117744/201371374-d5dae8f1-ede1-45f4-9f9e-026ea6e1eb86.png" height="32px">
-- <img src="https://user-images.githubusercontent.com/55117744/201371371-fc55fb7d-41e1-407a-ba9b-c67fa7c24ae6.png" height="32px">
-- <img src="https://user-images.githubusercontent.com/55117744/201371365-57f0acb6-d8b6-446b-91d9-c034d9b9c146.png" height="32px">
-- <img src="https://user-images.githubusercontent.com/55117744/201371363-6e909170-3873-4c3c-a1a6-549c3c5c2aa9.png" height="32px">
+* #### Atualização de Estoque
+>Funcionalidade para registrar entradas e saídas de produtos do estoque. Controle de estoque mínimo e alertas de reabastecimento.
+* #### Consulta e Relatórios
+>Tela para consultar produtos disponíveis e histórico de movimentação de
+estoque. Geração de relatórios de vendas, produtos mais vendidos, etc.
 
-# Contatos<img src="https://user-images.githubusercontent.com/55117744/201372171-07af2425-33c5-4dec-ac38-deffb796ca0e.gif" height="32px">
+### Implementação
+* #### Interface gráfica Swing para facilitar o cadastro e visualização de produtos e movimentações de estoque.
+* #### Banco de dados MySQL para armazenar informações de produtos e registros de movimentação.
+* #### Utilização de consultas SQL para buscar informações e atualizar o estoque dos produtos.
 
-| [<img src="https://user-images.githubusercontent.com/55117744/201372528-bc833fa3-067f-4175-9b1d-eedfd982216c.svg" alt="Linkedin Logo" width="32">](https://www.linkedin.com/in/jjcomputacao/) | [<img src="https://user-images.githubusercontent.com/55117744/201372527-8cf279f4-07ec-4701-91cb-4d42f1550f44.svg" alt="instagram logo" width="32">](https://www.instagram.com/bogachola/) | [<img src="https://user-images.githubusercontent.com/55117744/201372540-dd9df2c3-565f-499d-bcb0-30e5ad27b07a.png" alt="Github logo" width="34">](https://github.com/jjcomputacao) | [<img src="https://user-images.githubusercontent.com/55117744/201372533-bcb4850d-7aae-46bd-acea-29a8fbd82e63.png" alt="HackerRank Logo" width="30">](https://www.tinkercad.com/users/79TfVc87xBa) | [<img src="https://user-images.githubusercontent.com/55117744/201372520-bbd33308-c583-4f7b-b4d7-0af440aabcb0.svg" alt="Gmail logo" height="32">](mailto:jjcomputacao@gmail.com)
-|:---:|:---:|:---:|:---:|:---:|
+## 📋 Gerenciamento do projeto 
+Para melhor gerencia a distribuição das atividades foi utilizado o aplicativo [Trello]().
+
+## 🚀 Começando
+Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com/jjcomputacao/jjcomputacao/tree/SENAI_JavaFoundation_ProjetoFinal) do projeto para a sua maquina.
+
+
+### Pré-requisitos
+
+
+```
+- IntelliJ IDEA.
+- Instalação do banco de dados.
+- Criação do banco, tabela e colunas.
+- Connector MySQL
+```
+
+### 🔧 Instalação
+- Instale [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) em sua maquina.
+- Instale o mysql em sua máquina, o instalador consta na raiz do projeto.
+
+    Selecione a opção Full ![mysqlInstaller1](imagens/mysqlInstaller1.png)
+    Clique no botão "Next > ", depois execute.
+    Após o status estiver como "Downloaded", clique no botão "Next > " e logo após em "Execute".
+    ![mysqlInstaller2](imagens/mysqlInstaller2.png)
+    Clique no botão "Next >" até ser solicitado password.
+    ![mysqlInstaller3](imagens/mysqlInstaller3.png)
+    Em MySQL Root Password digite "senaisp", e confirma logo abaixo.
+    Continue a instalação e finalize clicando no botão "Finish".
+    Ao chegar na tela Connect To Server digite o password "senaisp".
+    ![mysqlInstaller4](imagens/mysqlInstaller4.png)
+    Clique no botão Check e após "Next >", "Execute" e "Finish".
+    Após a instalação do mysql, realize a criação do banco, tabela e colunas.
+    Abra o MySQL Workbench, e clique em Database > Connect to Database e clique em OK.
+    ![mysqlInstaller5](imagens/mysqlInstaller5.png)
+    Clique em new SQL.
+    ![mysqlInstaller6](imagens/mysqlInstaller6.png)
+    Digite o seguinte comando para criar o bando de dados.
+    ```
+    CREATE DATABASE estoque
+    ```
+    Clique em executar comando
+    Selecione o banco criado e digite o seguinte comando para criar tabela e Colunas.
+    ```
+    CREATE TABLE Produto (nome varchar(50), email varchar(50), senha varchar(50));
+    ```
+    Clique em executar comando
+    ![mysqlInstaller7](imagens/mysqlInstaller7.png)
+
+    Clique em atualizar o schema e pronto banco criado.
+- Adicione o conector MySQL ao projeto.
+    Clique em File > Project Structure > Project Settings > Libraries
+    Clique em new project Lybrary Java e selecione o arquivo "mysql-connector-j-9.0.0.jar".
+    ![mysqlInstaller8](imagens/mysqlInstaller8.png)
+    Clique em "OK", "Apply" e "OK".
+
+## ⚙️ Executar
+
+Explicar como executar os testes automatizados para este sistema.
+
+## 🛠️ Construído com
+
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows)
+* [MySQL](https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.37.0.msi)
+* [Connector MySQL](https://dev.mysql.com/downloads/connector/j/)
+
+## ✒️ Autores
+
+* **Desenvolvedor** - *Jhonatan José da Silva* - [linkedin](https://www.linkedin.com/in/jjcomputacao/)
+* **Desenvolvedor** - *Kaue Silva* - [linkedin]()
+* **Desenvolvedor** - *Murillo Medina* - [linkedin]()
+* **Desenvolvedor** - *Myckael Morais* - [linkedin]()
