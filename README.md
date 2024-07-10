@@ -20,15 +20,12 @@ estoque. Geração de relatórios de vendas, produtos mais vendidos, etc.
 * #### Utilização de consultas SQL para buscar informações e atualizar o estoque dos produtos.
 
 ## 📋 Gerenciamento do projeto 
-Para melhor gerencia a distribuição das atividades foi utilizado o aplicativo [Trello]().
+Para melhor gerencia a distribuição das atividades foi utilizado o aplicativo [Trello](https://trello.com/b/tfWy59rh/gestao-de-projetos).
 
 ## 🚀 Começando
 Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com/jjcomputacao/jjcomputacao/tree/SENAI_JavaFoundation_ProjetoFinal) do projeto para a sua maquina.
 
-
 ### Pré-requisitos
-
-
 ```
 - IntelliJ IDEA.
 - Instalação do banco de dados.
@@ -38,7 +35,7 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
 
 ### 🔧 Instalação
 - Instale [IntelliJ IDEA](https://www.jetbrains.com/idea/download/?section=windows) em sua maquina.
-- Instale o mysql em sua máquina, o instalador consta na raiz do projeto.
+- Realize o download e instale o [mysql](https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.37.0.msi) em sua máquina.
 
     Selecione a opção Full ![mysqlInstaller1](imagens/mysqlInstaller1.png)
     Clique no botão "Next > ", depois execute.
@@ -69,7 +66,7 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
     ![mysqlInstaller7](imagens/mysqlInstaller7.png)
 
     Clique em atualizar o schema e pronto banco criado.
-- Adicione o conector MySQL ao projeto.
+- Realize o download e descompacta o [Connector MySQL](https://dev.mysql.com/downloads/connector/j/) na raiz do projeto.
     Clique em File > Project Structure > Project Settings > Libraries
     Clique em new project Lybrary Java e selecione o arquivo "mysql-connector-j-9.0.0.jar".
     ![mysqlInstaller8](imagens/mysqlInstaller8.png)
