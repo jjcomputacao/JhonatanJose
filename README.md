@@ -67,7 +67,7 @@ Realize o clone da branch [SENAI_JavaFoundation_ProjetoFinal](https://github.com
 
     Clique em atualizar o schema e pronto banco criado.
 - Realize o download e descompacta o [Connector MySQL](https://dev.mysql.com/downloads/connector/j/) na raiz do projeto.
-    Clique em File > Project Structure > Project Settings > Libraries
+    Abra o Intelij e Clique em File > Project Structure > Project Settings > Libraries
     Clique em new project Lybrary Java e selecione o arquivo "mysql-connector-j-9.0.0.jar".
     ![mysqlInstaller8](imagens/mysqlInstaller8.png)
     Clique em "OK", "Apply" e "OK".
