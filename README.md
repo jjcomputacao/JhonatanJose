@@ -102,5 +102,5 @@ Explicar como executar os testes automatizados para este sistema.
 
 * **Desenvolvedor** - *Jhonatan José da Silva* - [linkedin](https://www.linkedin.com/in/jjcomputacao/)
 * **Desenvolvedor** - *Kaue Silva* - [linkedin]()
-* **Desenvolvedor** - *Murillo Medina* - [linkedin]()
+* **Desenvolvedor** - *Murillo Medina* - [www.linkedin.com/in/murillo-medina-0b178a260
 * **Desenvolvedor** - *Myckael Morais* - [linkedin]()
